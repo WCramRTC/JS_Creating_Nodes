@@ -11,13 +11,9 @@ btn.addEventListener('click', function() {
     var titleNode = document.createTextNode(txt.value);
     title.style.color = "red";
     title.appendChild(titleNode);
-    title.classList.add("title");
-
-    
+    title.classList.add("title");    
 
     div.appendChild(title);
-
-
     
     // tag.appendChild(text);
     
